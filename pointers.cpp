@@ -26,7 +26,6 @@ int main(int argc, char **argv)
     int idNum;
     printf("Please enter the student's id number: ");
     cin >> idNum;
-    char c;
     //validate input by using a while loop that breaks if cin doesn't fail.
     while(true)
     {
