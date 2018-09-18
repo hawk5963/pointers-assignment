@@ -131,7 +131,7 @@ int main(int argc, char **argv)
         //validate the score. If it passes, add it to total.
         while(true)
         {
-            if(cin.fail() or grade < 0)
+            if(cin.fail() or grade < 0 or cin.peek() != '\n')
             {
                 cin.clear();
                 cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
